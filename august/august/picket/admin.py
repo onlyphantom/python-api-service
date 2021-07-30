@@ -5,4 +5,3 @@ from .models import Student, Kelas, Class_Enrollment
 admin.site.register(Student)
 admin.site.register(Kelas)
 admin.site.register(Class_Enrollment)
-

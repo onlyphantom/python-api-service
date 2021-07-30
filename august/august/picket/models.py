@@ -12,4 +12,3 @@ class Kelas(models.Model):
 class Class_Enrollment(models.Model):
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
     kelas = models.ForeignKey(Kelas, on_delete=models.CASCADE)
-
